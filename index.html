@@ -1,7 +1,7 @@
 ---
 ---
 
-{% for post in site.posts limit:site.data.theme.num_home_posts %}
+{% for post in paginator.posts %}
 <div class="post-header-home">
   <h1 class="post-title-home">
     <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
@@ -13,3 +13,16 @@
   <p class="text-right"><a href="{{ post.url | prepend:site.baseurl }}">Continue Reading &rarr;</a></p>
 </div>
 {% endfor %}
+
+<div class="pagination-nav">
+  <div class="left">
+    {% if paginator.next_page_path %}
+      <a class="btn btn-primary" href="{{ paginator.next_page_path | prepend:site.baseurl }}"><i class="fa fa-lg fa-caret-left"></i>  Older </a>
+    {% endif %}
+  </div>
+  <div class="right">
+    {% if paginator.previous_page_path %}
+      <a class="btn btn-primary" href="{{ paginator.previous_page_path | prepend:site.baseurl }}"> Newer  <i class="fa fa-lg fa-caret-right"></i></a>
+    {% endif %}
+  </div>
+</div>

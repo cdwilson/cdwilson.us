@@ -12,3 +12,29 @@
   @extend .table;
   @extend .table-bordered;
 }
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.pagination-nav {
+  overflow: hidden;
+  width: 100%;
+}
+
+.entry-tags a {
+color: #aaa;
+text-decoration: none;
+}
+
+.entry-tags a:hover {
+color: #000;
+}
+
+.fa-ul ~ .section-header-archive {
+    margin-top: 50px;
+}

@@ -1,10 +1,34 @@
-baseurl: "/shiori" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "http://ellekasai.github.io" # the base hostname & protocol for your site
-title: "Shiori"
+# Site settings
+title: "Chris Wilson"
+# description: "" # This is used by feed.xml. Uncomment if you want to use it.
+email: cwilson@cdwilson.us
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "http://cdwilson.us" # the base hostname & protocol for your site
+permalink: /:categories/:title/
 
-# This is used by feed.xml. Uncomment if you want to use it.
-# description: "..."
+# Twitter
+twitter_username: wilson_chris_d
 
+# GitHub
+github_username: cdwilson
+
+# Google Analytics
+google_analytics_tracking_id: UA-48812545-1
+
+# Google Plus
+google_plus_profile_id: +ChristopherWilson0
+
+# LinkedIn
+linkedin_username: cdwilson
+
+# Facebook
+facebook_profile_id: cdwilson
+
+# Disqus Comments
+disqus_shortname: cdwilsonus
+disqus_show_comment_count: false
+
+# Global Configuration
 gems:
   - jemoji
 exclude:
@@ -13,7 +37,6 @@ exclude:
   - "CNAME"
   - "Gemfile"
   - "Gemfile.lock"
-permalink: :title
 defaults:
   -
     scope:
@@ -27,3 +50,5 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+paginate: 3
+paginate_path: "page:num"
