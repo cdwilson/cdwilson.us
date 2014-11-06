@@ -50,5 +50,13 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  -
+    scope:
+      path: ""
+      type: "drafts"
+    values:
+      layout: "post"
 paginate: 5
 paginate_path: "page:num"
+markdown: kramdown
+highlighter: pygments
