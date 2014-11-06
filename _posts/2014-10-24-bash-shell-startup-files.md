@@ -1,6 +1,5 @@
 ---
 title: "Bash shell startup files"
-date: 2014-10-24 20:24:47
 category: articles
 comments: true
 tags:

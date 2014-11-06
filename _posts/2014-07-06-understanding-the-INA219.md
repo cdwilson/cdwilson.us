@@ -1,6 +1,5 @@
 ---
 title: "Understanding the INA219 I2C Current/Power Monitor"
-date: 2014-07-06 10:17:30
 category: articles
 comments: true
 tags:

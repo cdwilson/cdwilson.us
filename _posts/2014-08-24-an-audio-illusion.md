@@ -1,6 +1,5 @@
 ---
 title: "An audio illusion"
-date: 2014-08-24 13:03:14
 category: blog
 comments: true
 tags:

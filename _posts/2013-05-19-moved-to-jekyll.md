@@ -1,6 +1,5 @@
 ---
 title: "I've moved to Jekyll"
-date: 2013-05-19 14:11:14
 category: blog
 comments: true
 tags:
