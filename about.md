@@ -10,6 +10,4 @@ layout: page
 
 * [Go Bears!](https://cal.berkeley.edu/cwilson)
 
-* Currently living in [La Jolla Cove](https://maps.google.com/maps/ms?msid=200417316614940091469.0004a056e869db8ce50f4&msa=0&ll=32.850452,-117.272315&spn=0.011095,0.009624)
-
 * I sweat the details
