@@ -1,13 +1,13 @@
 # Site settings
 title: "Chris Wilson"
 # description: "" # This is used by feed.xml. Uncomment if you want to use it.
-email: cwilson@cdwilson.us
+email: christopher.david.wilson@gmail.com
 baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
 url: "http://cdwilson.us" # the base hostname & protocol for your site
 permalink: /:categories/:title/
 
 # Twitter
-twitter_username: wilson_chris_d
+twitter_username: __cdwilson__
 
 # GitHub
 github_username: cdwilson
