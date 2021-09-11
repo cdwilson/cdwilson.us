@@ -29,8 +29,9 @@ disqus_shortname: cdwilsonus
 disqus_show_comment_count: false
 
 # Global Configuration
-gems:
+plugins:
   - jemoji
+  - jekyll-paginate
 exclude:
   - "README.md"
   - "CHANGELOG.md"
